@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+@media (min-width:1400px) {
+    .container {
+        max-width: 1350px;
+        width: 100%;
+    }
+}
+
+h1,h2,h3,h4,h5,h6,p,a,ul,ol,span {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: "Frutiger";
+    src: url(../fonts/frutiger/FRUTIGER.TTF);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Frutiger";
+    src: url(../fonts/frutiger/FRUTIGER_BOLD.TTF);
+}
+/* @font-face {
+    font-family: "CHILLAX-SEMIBOLD";
+    src: url(../fonts/chillax-variable/CHILLAX-SEMIBOLD.TTF);
+    font-weight: 600;
+} */
+@font-face {
+    font-family: "CHILLAX-VARIABLE";
+    src: url(../fonts/chillax-variable/CHILLAX-VARIABLE.TTF);
+    font-weight: 400;
+}
+
+:root {
+    --outfit-font : "Outfit", sans-serif;
+    --lato-font : "Lato", sans-serif;
+    --frutiger-font : "Frutiger";
+    --chillax-semibold : "CHILLAX-SEMIBOLD";
+    --chillax-variable : "CHILLAX-VARIABLE";
+    --gray-color : #21545f;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* top area css */
+.top-area {
+    padding: 1rem 0;
+    background-color: var(--gray-color);
+}
+.social-icons-list {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.social-icons-list .social-icon-area:last-child {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+.social-icon-area {
+    border-right: 1px solid white;
+    padding-right: 0.8rem;
+    margin-right: 0.8rem;
+}
+.social-icon-link {
+    font-size: 1.7rem;
+    color: white;
+    text-decoration: none;
+}
+.top-nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.top-link {
+    font-size: 1.5rem;
+    font-family: var(--frutiger-font);
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none;
+    background-color: transparent;
+}
+.user-img , .flag-img {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* header css start */
+.header {
+    padding: 1rem 0;
+    background-color: white;
+}
+.logo {
+    max-width: 240px;
+    width: 100%;
+}
+.link {
+    font-size: 1.7rem;
+    font-family: var(--frutiger-font);
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+.link i {
+    font-size: 1.3rem;
+    margin-top: 3px;
+}
