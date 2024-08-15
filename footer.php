@@ -4,7 +4,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="text-mb-center footer-logo-area">
                         <a class="text-decoration-none" href="#">
-                            <img class="img-fluid footer-logo" src="./assets/images/logo.png" alt="">
+                            <img class="img-fluid footer-logo" src="./assets/images/footer-logo.png" alt="">
                         </a>
                         <p class="footer-para mt-3 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <ul class="social-icons-list">
