@@ -133,7 +133,7 @@
                     </a>
                 </div>
                 <div class="col-12 col-lg-9 col-xl-8 ordr-md-1">
-                    <nav class="header-navigation active">
+                    <nav class="header-navigation">
                         <button class="menu-btn menu-cls-btn" type="button">
                             <i class="fa-solid fa-xmark"></i>
                         </button>
