@@ -669,7 +669,6 @@ button.search-cls-btn {
   background-repeat: no-repeat;
 }
 .footer-logo {
-  filter: brightness(10);
   max-width: 250px;
   width: 100%;
 }
