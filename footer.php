@@ -170,7 +170,7 @@
         </button>
         <div class="search-popup">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-8">
+                <div class="col-11 col-md-8">
                     <form action="">
                         <div class="newsletter-field-area bg-white">
                             <input type="text" required placeholder="Search Here" class="input-field text-black" name="" id="">

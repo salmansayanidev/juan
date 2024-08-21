@@ -139,161 +139,131 @@
                         </button>
                         <ul class="header-nav">
                             <li class="position-relative header-nav-li">
-                                <a class="link" href="#">
-                                    Market Data
+                                <a class="link" href="elite-trading-signals.php">
+                                    Elite Trading Signals
                                     <i class="fa-solid fa-angle-down"></i>
                                 </a>
-                                <button class="dropdown-btn" type="button">
+                                <button class="dropdown-btn head-drop-btn" type="button">
                                     <i class="fa-solid fa-angle-down"></i>
                                 </button>
                                 <ul class="head-dropdown-list">
                                     <li class="">
                                         <a class="link dropdown-link text-white" href="#">
-                                            Market Data
+                                            Sniper Entries Stocks
                                         </a>
                                     </li>
                                     <li class="">
                                         <a class="link dropdown-link text-white" href="#">
-                                            Market Data
+                                            Sniper Entries Crypto
                                         </a>
                                     </li>
                                     <li class="">
                                         <a class="link dropdown-link text-white" href="#">
-                                            Market Data
+                                            Sniper Entries Commodities / Futures Membership
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a class="link dropdown-link text-white" href="#">
+                                        Sniper Entries Forex Membership
                                         </a>
                                     </li>
                                 </ul>
                             </li>
+
                             <li class="position-relative header-nav-li">
                                 <a class="link" href="#">
-                                    Elite Trading Alerts
+                                    Trader’s Hub
                                     <i class="fa-solid fa-angle-down"></i>
                                 </a>
-                                <button class="dropdown-btn" type="button">
+                                <button class="dropdown-btn head-drop-btn" type="button">
                                     <i class="fa-solid fa-angle-down"></i>
                                 </button>
                                 <ul class="head-dropdown-list">
                                     <li class="">
                                         <a class="link dropdown-link text-white" href="#">
-                                            Elite Trading Alerts
+                                            Screeners/Indicators
                                         </a>
                                     </li>
                                     <li class="">
                                         <a class="link dropdown-link text-white" href="#">
-                                            Elite Trading Alerts
-                                        </a>
-                                    </li>
-                                    <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
-                                            Elite Trading Alerts
+                                            Trading News
                                         </a>
                                     </li>
                                 </ul>
                             </li>
+
                             <li class="position-relative header-nav-li">
                                 <a class="link" href="#">
-                                    Education Trading Courses  
+                                    Courses  
                                     <i class="fa-solid fa-angle-down"></i>
                                 </a>
-                                <button class="dropdown-btn" type="button">
+                                <button class="dropdown-btn head-drop-btn" type="button">
                                     <i class="fa-solid fa-angle-down"></i>
                                 </button>
                                 <ul class="head-dropdown-list">
                                     <li class="">
                                         <a class="link dropdown-link text-white" href="#">
-                                            Education Trading Courses
+                                            The Alerts
                                         </a>
                                     </li>
                                     <li class="">
                                         <a class="link dropdown-link text-white" href="#">
-                                            Education Trading Courses
-                                        </a>
-                                    </li>
-                                    <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
-                                            Education Trading Courses
+                                            The Flex Alpha Live Trading Room
                                         </a>
                                     </li>
                                 </ul>
                             </li>
+                            
                             <li class="position-relative header-nav-li">
                                 <a class="link" href="#">
-                                    Knowledge
+                                    Trading Courses
+                                </a>
+                            </li>
+
+                            <li class="position-relative header-nav-li">
+                                <a class="link" href="#">
+                                    Live Trading Rooms
                                     <i class="fa-solid fa-angle-down"></i>
                                 </a>
-                                <button class="dropdown-btn" type="button">
+                                <button class="dropdown-btn head-drop-btn" type="button">
                                     <i class="fa-solid fa-angle-down"></i>
                                 </button>
                                 <ul class="head-dropdown-list">
                                     <li class="">
                                         <a class="link dropdown-link text-white" href="#">
-                                            Knowledge
-                                        </a>
-                                    </li>
-                                    <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
-                                            Knowledge
-                                        </a>
-                                    </li>
-                                    <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
-                                            Knowledge
+                                            Flex Alpha – Live Trading Room
                                         </a>
                                     </li>
                                 </ul>
                             </li>
+
                             <li class="position-relative header-nav-li">
                                 <a class="link" href="#">
                                     Resources/Tools
                                     <i class="fa-solid fa-angle-down"></i>
                                 </a>
-                                <button class="dropdown-btn" type="button">
+                                <button class="dropdown-btn head-drop-btn" type="button">
                                     <i class="fa-solid fa-angle-down"></i>
                                 </button>
                                 <ul class="head-dropdown-list">
                                     <li class="">
                                         <a class="link dropdown-link text-white" href="#">
-                                            Resources/Tools
+                                            Newsletters
                                         </a>
                                     </li>
                                     <li class="">
                                         <a class="link dropdown-link text-white" href="#">
-                                            Resources/Tools
+                                            Our Blogs
                                         </a>
                                     </li>
                                     <li class="">
                                         <a class="link dropdown-link text-white" href="#">
-                                            Resources/Tools
+                                            Alpha Reports
                                         </a>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="position-relative header-nav-li">
-                                <a class="link" href="#">
-                                    Our Blogs
-                                    <i class="fa-solid fa-angle-down"></i>
-                                </a>
-                                <button class="dropdown-btn" type="button">
-                                    <i class="fa-solid fa-angle-down"></i>
-                                </button>
-                                <ul class="head-dropdown-list">
-                                    <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
-                                            Our Blogs
-                                        </a>
-                                    </li>
-                                    <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
-                                            Our Blogs
-                                        </a>
-                                    </li>
-                                    <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
-                                            Our Blogs
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
+                            
                         </ul>
                     </nav>
                 </div>
