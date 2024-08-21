@@ -77,6 +77,9 @@ span {
 .font-weight-900 {
   font-weight: 900;
 }
+.text-webkit-center {
+  text-align: -webkit-center;
+}
 
 /* search popup */
 .search-popup-wrap {
@@ -235,6 +238,10 @@ button.search-cls-btn {
   opacity: 1;
   visibility: visible;
 }
+/*.header-nav-li:hover .head-dropdown-list {*/
+/*  opacity: 1;*/
+/*  visibility: visible;*/
+/*}*/
 .link.dropdown-link {
   padding: 0.5rem 1rem;
   transition: 0.3s;
@@ -271,12 +278,13 @@ button.search-cls-btn {
   position: absolute;
   right: 0;
   top: 0;
+  z-index : 99;
 }
 
 /* banner section start */
 .banner-section {
   padding: 9rem 0;
-  background-image: url(../images/bnner-bg-img.png);
+  background-image: url(../images/bnner-bg-img.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -342,7 +350,7 @@ button.search-cls-btn {
 /* about us section */
 .about-us-section,
 .features-section {
-  background-image: url(../images/about-us-bg-img.png);
+  background-image: url(../images/about-us-bg-img.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -360,7 +368,8 @@ button.search-cls-btn {
 .sb-title {
   font-size: 4.6rem;
   font-family: var(--chillax-variable);
-  font-weight: 700;
+  /*font-family: var(--chillax-semibold);*/
+  font-weight: 600;
   line-height: 1.2;
 }
 .results-list {
@@ -411,7 +420,7 @@ button.search-cls-btn {
 /* tips section start */
 
 .tips-section {
-  background-image: url(../images/tips-sec-bg-img.png);
+  background-image: url(../images/tips-sec-bg-img.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -514,7 +523,7 @@ button.search-cls-btn {
 
 /* testimonial section start */
 .testimonial-section {
-  background-image: url(../images/testimonial-bg-img.png);
+  background-image: url(../images/testimonial-bg-img.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -663,13 +672,12 @@ button.search-cls-btn {
 
 .footer {
   padding: 7rem 0 0;
-  background-image: url(../images/footer-bg-img.png);
+  background-image: url(../images/footer-bg-img.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .footer-logo {
-  filter: brightness(10);
   max-width: 250px;
   width: 100%;
 }
@@ -681,7 +689,7 @@ button.search-cls-btn {
   line-height: 1.3;
 }
 .footer .social-icon-link {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .footer-title {
   font-size: 2.5rem;
@@ -717,4 +725,103 @@ button.search-cls-btn {
 }
 .footer-btm-area {
   padding: 1.4rem 0;
+}
+
+/* flex trading section */
+
+
+.flex-trading-img {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+}
+.flex-trading-img-area {
+  z-index: 11;
+  margin-bottom: 8px;
+}
+.flex-trading-img-area::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 0;
+  opacity: .40;
+}
+.flex-trading-a {
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+}
+.flex-team-box-text-area {
+  background-color: #8F0000;
+  padding: 2rem 2rem;
+  text-align: center;
+} 
+.team-member-name {
+  font-size: 2rem;
+  font-family: var(--outfit-font);
+  font-weight: 700;
+  color: white;
+}
+.team-member-tag {
+  font-size: 1.6rem;
+  font-family: var(--outfit-font);
+  font-weight: 500;
+  color: white;
+}
+.flex-team-img-area {
+  position: relative;
+}
+.team-member-img {
+  min-height: 450px;
+  object-fit: cover;
+}
+.flex-team-img-area::before {
+  position: absolute;
+  content: " ";
+  background-color: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s;
+}
+.flex-team-box:hover .flex-team-img-area::before {
+  opacity: 0.5;
+}
+
+/* elite trading section */
+
+.inner-page-bnner {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15rem 0;
+}
+.elite-trading-section {
+  background-image: url(../images/elite-trading-bg.webp);
+  position: relative;
+  z-index: 111;
+}
+.elite-trading-section::before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  z-index: -1;
+}
+.inner-sec-title {
+  font-size: 7.5rem;
+}
+.sec-sb-title {
+  font-size: 5rem;
+  font-family: var(--chillax-variable);
+  font-weight: 600;
+
 }
