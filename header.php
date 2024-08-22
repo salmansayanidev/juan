@@ -148,22 +148,22 @@
                                 </button>
                                 <ul class="head-dropdown-list">
                                     <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
+                                        <a class="link dropdown-link text-white" href="sniper-entries-stocks.php">
                                             Sniper Entries Stocks
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
+                                        <a class="link dropdown-link text-white" href="sniper-entries-crypto.php">
                                             Sniper Entries Crypto
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
+                                        <a class="link dropdown-link text-white" href="sniper-entries-commodities-futures-membership.php">
                                             Sniper Entries Commodities / Futures Membership
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
+                                        <a class="link dropdown-link text-white" href="sniper-entries-forex-membership.php">
                                         Sniper Entries Forex Membership
                                         </a>
                                     </li>
