@@ -72,6 +72,10 @@ span {
 .py-4rem {
   padding: 4rem 0;
 }
+.px-7rem {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -259,6 +263,10 @@ button.search-cls-btn {
 }
 .head-dropdown-list li:hover {
   background-color: var(--mustard-yellow);
+}
+.link.dropdown-link.active {
+  background-color: var(--mustard-yellow);
+  color: var(--purple);
 }
 .head-dropdown-list li:hover a {
   color: var(--purple) !important;
@@ -809,7 +817,7 @@ button.search-cls-btn {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 15rem 0;
+  padding: 20rem 0;
   position: relative;
   z-index: 11;
 }
@@ -832,12 +840,14 @@ button.search-cls-btn {
 }
 .inner-sec-title {
   font-size: 7.5rem;
+  text-transform: capitalize;
 }
 .sec-sb-title {
   font-size: 4rem;
   font-family: var(--chillax-variable);
   font-weight: 600;
   line-height: 1.2;
+  text-transform: capitalize;
 }
 .list-para {
   font-size: 1.8rem;
@@ -942,4 +952,129 @@ button.primary-btn {
 
 .sniper-entries-forex-membership-section {
   background-image: url(../images//sniper-entries-stocks-bg.webp);
+}
+
+/* traders-hub screen */
+.traders-hub-slider-btn {
+  background-color: transparent;
+  font-size: 2rem;
+  color: var(--purple);
+  border: none;
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+}
+.traders-hub-slider-btn.pre-btn {
+  left: -40px;
+}
+.traders-hub-slider-btn.next-btn {
+  right: -40px;
+}
+.traders-hub-list-slider-layer {
+  margin: 0 5px;
+}
+.watchlist-chart-text-area {
+  padding: 3rem 3rem;
+  background-color: black;
+}
+.watchlist-chart-title {
+  font-size: 2.6rem;
+  font-family: var(--outfit-font);
+  font-weight: 500;
+  line-height: 1.4;
+}
+.watchlist-read-more {
+  font-size: 1.6rem;
+  font-family: var(--outfit-font);
+  font-weight: 400;
+  color: black;
+  background-color: white;
+  padding: 0.5rem 2.5rem;
+  text-transform: capitalize;
+}
+.watchlist-chart-box {
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+.economics-chart-text-area {
+  background-color: black;
+  padding: 3rem 2rem;
+}
+.economics-chart-title {
+  font-size: 2rem;
+  font-family: var(--outfit-font);
+  font-weight: 500;
+  line-height: 1.3;
+}
+.economics-chart-text-area .sm-para {
+  font-size: 1.4rem;
+  font-family: var(--outfit-font);
+  font-weight: 400;
+}
+.economics-chart-slider-layer {
+  margin: 0 10px;
+}
+.economics-chart-img {
+  height: 240px;
+  object-fit: cover;
+}
+.economics-chart-slider-btn {
+  font-size: 2rem;
+  color: var(--purple);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+}
+.economics-chart-slider-btn.pre-btn {
+  left: -30px;
+}
+.economics-chart-slider-btn.next-btn {
+  right: -30px;
+}
+.earnings-tabel tr th {
+  font-size: 1.4rem;
+  font-family: var(--outfit-font);
+  color: var(--purple);
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid black;
+  padding: 1rem 1.5rem;
+}
+.earnings-tabel tr td {
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 1.5rem;
+  font-family: var(--outfit-font);
+  color: var(--purple);
+  font-weight: 500;
+}
+
+/* trading news screen */
+.trading-new-main-img {
+  height: 600px;
+  object-fit: cover;
+}
+.trading-features-img {
+  height: 160px;
+  object-fit: cover;
+}
+.trading-new-para {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.trading-new-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* flex-alpha-live-trading-room-screen */
+.flex-alpha-live-trading-room-section {
+  background-image: url(../images/fllex-alpha-live-bg.webp);
 }

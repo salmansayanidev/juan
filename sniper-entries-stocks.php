@@ -9,7 +9,7 @@ include 'header.php'
             <div class="row">
                 <div class="col-12">
                     <div class="inner-bnner-text-area text-webkit-center">
-                        <h1 class="sec-title inner-sec-title text-gradient">Elite Trading Signals</h1>
+                        <h1 class="sec-title inner-sec-title text-gradient">Sniper Entries Stock</h1>
                         <a class="sec-link mt-4" href="#">
                             <span class="">Start a 30-Day Trial For $5 </span>
                             <span class="circle"><i class="fa-solid fa-arrow-right"></i></span>

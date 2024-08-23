@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,8 +18,9 @@
     <link rel="stylesheet" href="./assets/style/responsive.css">
     <title>Flex Trading</title>
 </head>
+
 <body>
-    
+
     <div class="top-area">
         <div class="container">
             <div class="row justify-content-between align-items-center">
@@ -111,7 +113,7 @@
                                 <ul class="dropdown-menu flag">
                                     <li class="">
                                         <button class="top-link text-uppercase d-flex justify-content-start align-items-center gap-3 text-black flag_link eng dropdown-item default" data-lang="en">
-                                            <img class="img-fluid flag-img" src="./assets/images/flag-img-1.png" alt="">  
+                                            <img class="img-fluid flag-img" src="./assets/images/flag-img-1.png" alt="">
                                             Eng
                                         </button>
                                     </li>
@@ -164,14 +166,14 @@
                                     </li>
                                     <li class="">
                                         <a class="link dropdown-link text-white" href="sniper-entries-forex-membership.php">
-                                        Sniper Entries Forex Membership
+                                            Sniper Entries Forex Membership
                                         </a>
                                     </li>
                                 </ul>
                             </li>
 
                             <li class="position-relative header-nav-li">
-                                <a class="link" href="#">
+                                <a class="link" href="traders-hub.php">
                                     Trader’s Hub
                                     <i class="fa-solid fa-angle-down"></i>
                                 </a>
@@ -180,12 +182,12 @@
                                 </button>
                                 <ul class="head-dropdown-list">
                                     <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
+                                        <a class="link dropdown-link text-white" href="screeners-indicators.php">
                                             Screeners/Indicators
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
+                                        <a class="link dropdown-link text-white" href="trading-news.php">
                                             Trading News
                                         </a>
                                     </li>
@@ -194,7 +196,7 @@
 
                             <li class="position-relative header-nav-li">
                                 <a class="link" href="#">
-                                    Courses  
+                                    Courses
                                     <i class="fa-solid fa-angle-down"></i>
                                 </a>
                                 <button class="dropdown-btn head-drop-btn" type="button">
@@ -213,7 +215,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            
+
                             <li class="position-relative header-nav-li">
                                 <a class="link" href="#">
                                     Trading Courses
@@ -221,7 +223,7 @@
                             </li>
 
                             <li class="position-relative header-nav-li">
-                                <a class="link" href="#">
+                                <a class="link" href="live-trading-rooms.php">
                                     Live Trading Rooms
                                     <i class="fa-solid fa-angle-down"></i>
                                 </a>
@@ -230,7 +232,7 @@
                                 </button>
                                 <ul class="head-dropdown-list">
                                     <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
+                                        <a class="link dropdown-link text-white" href="flex-alpha-live-trading-room.php">
                                             Flex Alpha – Live Trading Room
                                         </a>
                                     </li>
@@ -263,7 +265,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            
+
                         </ul>
                     </nav>
                 </div>
@@ -280,3 +282,5 @@
             </div>
         </div>
     </header>
+
+   

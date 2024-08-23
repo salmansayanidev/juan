@@ -55,8 +55,8 @@ include 'header.php'
                                     <p class="list-para"><strong>Transparent Performance:</strong> Access a transparent track record of past stock trades, showing the accuracy and success rate of our Sniper Entries.</p>
                                 </li>
                             </ul>
-                            <a class="primary-btn primary-btn-2 text-decoration-none" href="#">
-                                Read More
+                            <a class="primary-btn primary-btn-2 text-decoration-none" href="sniper-entries-stocks.php">
+                                Learn More
                             </a>
                         </div>
                     </div>
@@ -90,8 +90,8 @@ include 'header.php'
                                     <p class="list-para"><strong>Transparent Performance:</strong> Gain access to a transparent performance history of past cryptocurrency trades, demonstrating the accuracy and effectiveness of our Sniper Entries.</p>
                                 </li>
                             </ul>
-                            <a class="primary-btn primary-btn-2 text-decoration-none" href="#">
-                                Read More
+                            <a class="primary-btn primary-btn-2 text-decoration-none" href="sniper-entries-crypto.php">
+                                Learn More
                             </a>
                         </div>
                     </div>
@@ -129,7 +129,7 @@ include 'header.php'
                                 </li>
                             </ul>
                             <a class="primary-btn primary-btn-2 text-decoration-none" href="#">
-                                Read More
+                                Learn More
                             </a>
                         </div>
                     </div>
@@ -164,7 +164,7 @@ include 'header.php'
                                 </li>
                             </ul>
                             <a class="primary-btn primary-btn-2 text-decoration-none" href="#">
-                                Read More
+                                Learn More
                             </a>
                         </div>
                     </div>
