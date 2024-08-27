@@ -2,11 +2,44 @@
   html {
     font-size: 8px;
   }
+  .alpha-reports-bnner-img {
+    height: 700px;
+}
+  .elite-img {
+    height: 560px;
+  }
+  .trading-new-main-img {
+    height: 580px;
+    object-fit: cover;
+  }
+  .our-blog-para-area {
+    position: absolute;
+    right: 5vw;
+    bottom: 60px;
+    max-width: 460px;
+  }
 }
 
 @media (max-width: 1199px) {
   html {
     font-size: 7px;
+  }
+  .alpha-reports-bnner-img {
+    height: 600px;
+}
+  .our-blog-para-area {
+    right: 10vw;
+    bottom: 60px;
+    max-width: 390px;
+  }
+  .trading-new-main-img {
+    height: 560px;
+  }
+  .team-member-img {
+    min-height: 350px;
+  }
+  .elite-img {
+    height: 500px;
   }
   .top-end-area {
     gap: 10px !important;
@@ -17,13 +50,44 @@
   .testimonial-para {
     height: 50px;
   }
+  .cirlce-user-img {
+    height: 35px;
+    width: 35px;
+}
+.bookmark-btn {
+  height: 30px;
+  width: 30px;
+}
 }
 
 @media (max-width: 991px) {
-    /*.header-nav-li:hover .head-dropdown-list {*/
-    /*    opacity: unset;*/
-    /*    visibility: unset;*/
-    /*}*/
+  .select2-container .select2-selection--single .select2-selection__rendered, .select2-results__option, .select2-search--dropdown .select2-search__field {
+    font-size: 2rem;
+}
+  .select2-container {
+    width: 200px !important;
+}
+  .alert-course-box {
+    margin-bottom: 3rem;
+}
+  .our-blog-para-area {
+    right: 3vw;
+    max-width: 330px;
+    bottom: 20px;
+}
+  .trading-new-main-img {
+    height: 450px;
+  }
+  .flex-team-box {
+    margin-bottom: 20px;
+  }
+  .elite-img {
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  .contact-form {
+    margin-bottom: 20px;
+  }
   .link.dropdown-link {
     color: #000 !important;
   }
@@ -102,11 +166,11 @@
   .head-dropdown-list.show {
     opacity: unset;
     visibility: unset;
-    }
-    .head-dropdown-list {
-        visibility: visible;
-        opacity: 1;
-    }
+  }
+  .head-dropdown-list {
+    visibility: visible;
+    opacity: 1;
+  }
   .text-med-center {
     text-align: -webkit-center !important;
   }
@@ -138,12 +202,67 @@
   .dropdown-btn {
     display: flex;
   }
+  .watchlist-chart-box {
+    margin-bottom: 25px;
+  }
+  .popular-indicator {
+    margin-bottom: 30px !important;
+  }
+  .newsletter-link {
+    bottom: 40px;
+  }
 }
 
 @media (max-width: 767px) {
-    .top-nav-list {
-        justify-content : start;
-    }
+  .login-signup-logo {
+    max-width: 170px;
+}
+  .our-blog-para-area {
+    right: 2vw;
+    max-width: 300px;
+    bottom: 20px;
+}
+  /* .our-blog-para-area {
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 80%;
+    width: 100%;
+    bottom: -30px;
+}
+.our-blog-para-area .list-para {
+  font-size: 2rem;
+  text-align: center;
+  color: black !important;
+} */
+  .alpha-reports-bnner-img {
+    height: 500px;
+}
+.alpha-report-link {
+  bottom: 30px;
+}
+  .economics-chart-text-area .sm-para {
+    font-size: 1.8rem;
+  }
+  .economics-chart-title {
+    font-size: 2.5rem;
+  }
+  .economic-charts-metrics-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .economics-chart-slider-btn {
+    display: none !important;
+  }
+  .flex-trading-img {
+    height: 500px;
+  }
+  .sniper-entries-iframe {
+    height: 500px;
+  }
+  .top-nav-list {
+    justify-content: start;
+  }
   .header-navigation {
     position: fixed;
     top: 0;
@@ -212,11 +331,45 @@
     height: 30px;
     width: 30px;
   }
+  .traders-hub-slider-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .our-blog-para-area {
+    right: 2vw;
+    max-width: 260px;
+    bottom: unset;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.our-blog-para-area {
+  max-width: 230px;
+}
 }
 
 @media (max-width: 480px) {
   html {
     font-size: 5.5px;
+  }
+  .our-blog-para-area {
+    max-width: 50vw;
+}
+  .alpha-reports-bnner-img {
+    height: 350px;
+}
+  .trading-new-main-img {
+    height: 300px;
+  }
+  .earnings-tabel {
+    min-width: 430px;
+  }
+  .sniper-entries-iframe {
+    height: 400px;
+  }
+  .flex-trading-img {
+    height: 400px;
   }
   .top-nav-list {
     gap: 7px;

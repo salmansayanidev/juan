@@ -40,10 +40,10 @@ include "header.php"
         <div class="container">
             <div class="row align-items-center mb-5">
                 <div class="col-12 col-lg-7">
-                    <h3 class="sec-sb-title text-black">Popular Indicators:</h3>
+                    <h3 class="sec-sb-title text-lg-start text-center mb-lg-0 mb-4 text-black">Popular Indicators:</h3>
                 </div>
                 <div class="col-12 col-lg-5">
-                    <div class="d-flex justify-content-end">
+                    <div class="d-flex justify-content-center justify-content-lg-end">
                         <a class="sec-link text-black" href="#">
                             <span class="">See All Indicators </span>
                             <span class="circle border-black"><i class="fa-solid fa-arrow-right"></i></span>
@@ -51,9 +51,9 @@ include "header.php"
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-12 col-lg-4 col-md-6">
-                    <div class="economics-chart-slider-layer rounded-top-5 overflow-hidden m-0">
+                    <div class="economics-chart-slider-layer rounded-top-5 overflow-hidden m-0 popular-indicator">
                         <div class="">
                             <img class="economics-chart-img w-100 img-fluid" src="./assets/images/chart-img-2.png" alt="">
                         </div>
@@ -67,7 +67,7 @@ include "header.php"
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-md-6">
-                    <div class="economics-chart-slider-layer rounded-top-5 overflow-hidden m-0">
+                    <div class="economics-chart-slider-layer rounded-top-5 overflow-hidden m-0 popular-indicator">
                         <div class="">
                             <img class="economics-chart-img w-100 img-fluid" src="./assets/images/chart-img-3.png" alt="">
                         </div>
@@ -81,7 +81,7 @@ include "header.php"
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-md-6">
-                    <div class="economics-chart-slider-layer rounded-top-5 overflow-hidden m-0">
+                    <div class="economics-chart-slider-layer rounded-top-5 overflow-hidden m-0 popular-indicator">
                         <div class="">
                             <img class="economics-chart-img w-100 img-fluid" src="./assets/images/chart-img-2.png" alt="">
                         </div>
