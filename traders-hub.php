@@ -229,7 +229,7 @@ include "header.php"
                 </div>
                 <div class="col-12 col-lg-8">
                     <h3 class="sec-sb-title mb-4 text-center text-black">Earnings</h3>
-                    <div class="mb-5">
+                    <div class="mb-5 overflow-x-auto">
                         <table class="earnings-tabel">
                             <thead>
                                 <tr>
@@ -673,7 +673,7 @@ include "footer.php"
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 2,
                 }
@@ -700,13 +700,13 @@ include "footer.php"
         nextArrow: '.economics-chart-slider-btn.next-btn',
         prevArrow: '.economics-chart-slider-btn.pre-btn',
         responsive: [{
-                breakpoint: 1024,
+                breakpoint: 1199,
                 settings: {
                     slidesToShow: 3,
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 800,
                 settings: {
                     slidesToShow: 2,
                 }

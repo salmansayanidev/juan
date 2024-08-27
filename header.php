@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/style/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/style/slick.css">
-    <link rel="stylesheet" href="./assets/style/style.css">
-    <link rel="stylesheet" href="./assets/style/responsive.css">
-    <title>Flex Trading</title>
-</head>
+<?php
+include "head.php"
+?>
 
 <body>
 
@@ -57,17 +40,17 @@
                     <nav class="top-nav">
                         <ul class="top-nav-list">
                             <li class="">
-                                <a class="top-link" href="#">
+                                <a class="top-link" href="about-us.php">
                                     about us
                                 </a>
                             </li>
                             <li class="">
-                                <a class="top-link" href="#">
+                                <a class="top-link" href="our-reviews.php">
                                     our reviews
                                 </a>
                             </li>
                             <li class="">
-                                <a class="top-link" href="#">
+                                <a class="top-link" href="contact-us.php">
                                     contact us
                                 </a>
                             </li>
@@ -81,7 +64,7 @@
                                 <img class="user-img img-fluid" src="./assets/images/user-img.png" alt="">
                             </div>
                             <div class="">
-                                <a class="top-link text-uppercase" href="#">
+                                <a class="top-link text-uppercase" href="login.php">
                                     login
                                 </a>
                             </div>
@@ -91,7 +74,7 @@
                                 </span>
                             </div>
                             <div class="">
-                                <a class="top-link text-uppercase" href="#">
+                                <a class="top-link text-uppercase" href="signup.php">
                                     signup
                                 </a>
                             </div>
@@ -111,10 +94,64 @@
                                     Eng
                                 </button>
                                 <ul class="dropdown-menu flag">
-                                    <li class="">
+                                    <li class="mb-2">
                                         <button class="top-link text-uppercase d-flex justify-content-start align-items-center gap-3 text-black flag_link eng dropdown-item default" data-lang="en">
-                                            <img class="img-fluid flag-img" src="./assets/images/flag-img-1.png" alt="">
+                                            <img class="img-fluid drop-flag flag-img" src="./assets/images/flag-img-1.png" alt="">
                                             Eng
+                                        </button>
+                                    </li>
+                                    <li class="mb-2">
+                                        <button class="top-link text-uppercase d-flex justify-content-start align-items-center gap-3 text-black flag_link ar dropdown-item" data-lang="ar">
+                                            <img class="img-fluid drop-flag flag-img" src="./assets/images/flag-img-2.png" alt="">
+                                            Arabic
+                                        </button>
+                                    </li>
+                                    <li class="mb-2">
+                                        <button class="top-link text-uppercase d-flex justify-content-start align-items-center gap-3 text-black flag_link zh-CN dropdown-item" data-lang="zh-CN">
+                                            <img class="img-fluid drop-flag flag-img" src="./assets/images/flag-img-3.png" alt="">
+                                            Chinese (Simplified)
+                                        </button>
+                                    </li>
+                                    <li class="mb-2">
+                                        <button class="top-link text-uppercase d-flex justify-content-start align-items-center gap-3 text-black flag_link nl dropdown-item" data-lang="nl">
+                                            <img class="img-fluid drop-flag flag-img" src="./assets/images/flag-img-4.png" alt="">
+                                            Dutch
+                                        </button>
+                                    </li>
+                                    <li class="mb-2">
+                                        <button class="top-link text-uppercase d-flex justify-content-start align-items-center gap-3 text-black flag_link fr dropdown-item" data-lang="fr">
+                                            <img class="img-fluid drop-flag flag-img" src="./assets/images/flag-img-5.png" alt="">
+                                            French
+                                        </button>
+                                    </li>
+                                    <li class="mb-2">
+                                        <button class="top-link text-uppercase d-flex justify-content-start align-items-center gap-3 text-black flag_link de dropdown-item" data-lang="de">
+                                            <img class="img-fluid drop-flag flag-img" src="./assets/images/flag-img-6.png" alt="">
+                                            German
+                                        </button>
+                                    </li>
+                                    <li class="mb-2">
+                                        <button class="top-link text-uppercase d-flex justify-content-start align-items-center gap-3 text-black flag_link it dropdown-item" data-lang="it">
+                                            <img class="img-fluid drop-flag flag-img" src="./assets/images/flag-img-7.png" alt="">
+                                            Italian
+                                        </button>
+                                    </li>
+                                    <li class="mb-2">
+                                        <button class="top-link text-uppercase d-flex justify-content-start align-items-center gap-3 text-black flag_link pt dropdown-item" data-lang="pt">
+                                            <img class="img-fluid drop-flag flag-img" src="./assets/images/flag-img-8.png" alt="">
+                                            Portuguese
+                                        </button>
+                                    </li>
+                                    <li class="mb-2">
+                                        <button class="top-link text-uppercase d-flex justify-content-start align-items-center gap-3 text-black flag_link ru dropdown-item" data-lang="ru">
+                                            <img class="img-fluid drop-flag flag-img" src="./assets/images/flag-img-9.png" alt="">
+                                            Russian
+                                        </button>
+                                    </li>
+                                    <li class="mb-2">
+                                        <button class="top-link text-uppercase d-flex justify-content-start align-items-center gap-3 text-black flag_link es dropdown-item" data-lang="es">
+                                            <img class="img-fluid drop-flag flag-img" src="./assets/images/flag-img-10.png" alt="">
+                                            Spanish
                                         </button>
                                     </li>
                                 </ul>
@@ -204,12 +241,12 @@
                                 </button>
                                 <ul class="head-dropdown-list">
                                     <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
+                                        <a class="link dropdown-link text-white" href="the-alerts.php">
                                             The Alerts
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
+                                        <a class="link dropdown-link text-white" href="the-flex-alpha-live-trading-room.php">
                                             The Flex Alpha Live Trading Room
                                         </a>
                                     </li>
@@ -249,17 +286,17 @@
                                 </button>
                                 <ul class="head-dropdown-list">
                                     <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
+                                        <a class="link dropdown-link text-white" href="newsletter.php">
                                             Newsletters
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
+                                        <a class="link dropdown-link text-white" href="our-blog.php">
                                             Our Blogs
                                         </a>
                                     </li>
                                     <li class="">
-                                        <a class="link dropdown-link text-white" href="#">
+                                        <a class="link dropdown-link text-white" href="alpha-reports.php">
                                             Alpha Reports
                                         </a>
                                     </li>
@@ -283,4 +320,16 @@
         </div>
     </header>
 
-   
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var currentUrl = window.location.href;
+            var links = document.querySelectorAll('.dropdown-link');
+
+            links.forEach(function(link) {
+                if (link.href === currentUrl) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>

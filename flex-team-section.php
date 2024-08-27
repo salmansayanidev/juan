@@ -1,6 +1,6 @@
 <section class="trading-team-section py-5rem">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-12">
                 <h1 class="sb-title purple mb-5  text-center">Your Flex Trading Team</h1>
             </div>
