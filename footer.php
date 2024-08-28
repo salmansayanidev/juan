@@ -6,7 +6,7 @@
                         <a class="text-decoration-none" href="#">
                             <img class="img-fluid footer-logo" src="./assets/images/footer-logo.png" alt="">
                         </a>
-                        <p class="footer-para mt-3 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="footer-para mt-3 mb-4">Guiding you with expert insights and personalized strategies to make informed investment decisions and strive towards your financial aspirations.</p>
                         <ul class="social-icons-list">
                             <li class="social-icon-area">
                                 <a class="social-icon-link" href="#">
@@ -40,21 +40,21 @@
                     <h3 class="footer-title text-gradient mt-4"> Quick Links </h3>
                     <ul class="footer-link-list">
                         <li class="">
-                            <a class="text-decoration-none footer-link" href="#">
+                            <a class="text-decoration-none footer-link" href="elite-trading-signals.php">
                                 <span class="angle mustard-yello font-weight-900"> > </span>
-                                <span>market data</span>
+                                <span>Elite Trading Signals</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="text-decoration-none footer-link" href="traders-hub.php">
+                                <span class="angle mustard-yello font-weight-900"> > </span>
+                                <span>Trade's Hub</span>
                             </a>
                         </li>
                         <li class="">
                             <a class="text-decoration-none footer-link" href="#">
                                 <span class="angle mustard-yello font-weight-900"> > </span>
-                                <span>Elite Trading Alerts</span>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a class="text-decoration-none footer-link" href="#">
-                                <span class="angle mustard-yello font-weight-900"> > </span>
-                                <span>Education Trading Courses</span>
+                                <span>Education Trading Courses </span>
                             </a>
                         </li>
                         <li class="">
@@ -70,7 +70,7 @@
                             </a>
                         </li>
                         <li class="">
-                            <a class="text-decoration-none footer-link" href="#">
+                            <a class="text-decoration-none footer-link" href="our-blog.php">
                                 <span class="angle mustard-yello font-weight-900"> > </span>
                                 <span>Our Blogs</span>
                             </a>
@@ -81,7 +81,7 @@
                     <h3 class="footer-title text-gradient mt-4"> Helpful Links </h3>
                     <ul class="footer-link-list">
                         <li class="">
-                            <a class="text-decoration-none footer-link" href="#">
+                            <a class="text-decoration-none footer-link" href="contact-us.php">
                                 <span class="angle mustard-yello font-weight-900"> > </span>
                                 <span>Contact Us</span>
                             </a>
@@ -120,15 +120,15 @@
                                 <span class="angle mustard-yello font-weight-900"> 
                                     <i class="fa-solid fa-phone"></i>    
                                 </span>
-                                <span>(754) 715-2475</span>
+                                <span>(754) 888-5095</span>
                             </a>
                         </li>
                         <li class="">
-                            <a class="text-decoration-none footer-link gap-4" href="mailto:jccarrasquillab_15@yahoo.com">
+                            <a class="text-decoration-none footer-link gap-4" href="mailto:info@flextrading.io">
                                 <span class="angle mustard-yello font-weight-900"> 
                                     <i class="fa-solid fa-envelope"></i>    
                                 </span>
-                                <span>jccarrasquillab_15@yahoo.com</span>
+                                <span>info@flextrading.io</span>
                             </a>
                         </li>
                         <li class="">

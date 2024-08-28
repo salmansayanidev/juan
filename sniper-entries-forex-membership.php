@@ -64,7 +64,7 @@ include 'header.php'
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <h1 class="sb-title purple mb-5  text-center">Proven record:</h1>
+                    <h1 class="sb-title purple mb-5 text-gradient text-center">Proven record:</h1>
                 </div>
                 <div class="col-12 col-lg-10">
                     <div class="">

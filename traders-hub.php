@@ -176,7 +176,7 @@ include "header.php"
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="mb-5">
-                        <h3 class="sec-sb-title mb-4 text-center text-black">Economic Calendar</h3>
+                        <h3 class="sec-sb-title mb-4 text-center text-gradient">Economic Calendar</h3>
                         <div class="tradingview-widget-container w-100">
                             <div class="tradingview-widget-container__widget"></div>
                             <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"> </span></a></div>
@@ -196,7 +196,7 @@ include "header.php"
                 </div>
                 <div class="col-12 col-lg-5">
                     <div class="mb-5">
-                        <h3 class="sec-sb-title mb-4 text-center text-black">Market Activity</h3>
+                        <h3 class="sec-sb-title mb-4 text-center text-gradient">Market Activity</h3>
                         <div class="tradingview-widget-container w-100">
                             <div class="tradingview-widget-container__widget"></div>
                             <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"> </span></a></div>
@@ -228,8 +228,8 @@ include "header.php"
                     </div>
                 </div>
                 <div class="col-12 col-lg-8">
-                    <h3 class="sec-sb-title mb-4 text-center text-black">Earnings</h3>
-                    <div class="mb-5">
+                    <h3 class="sec-sb-title mb-4 text-center text-gradient">Earnings</h3>
+                    <div class="mb-5 overflow-x-auto">
                         <table class="earnings-tabel">
                             <thead>
                                 <tr>
@@ -315,7 +315,7 @@ include "header.php"
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <h3 class="sec-sb-title mb-4 text-center text-black">Market News</h3>
+                    <h3 class="sec-sb-title mb-4 text-center text-gradient">Market News</h3>
                     <div class="mb-5">
                         <div class="tradingview-widget-container w-100">
                             <div class="tradingview-widget-container__widget"></div>
@@ -335,7 +335,7 @@ include "header.php"
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <h3 class="sec-sb-title mb-4 text-center text-black">Market Overview</h3>
+                    <h3 class="sec-sb-title mb-4 text-center text-gradient">Market Overview</h3>
                     <div class="mb-5">
                         <div class="tradingview-widget-container w-100">
                             <div class="tradingview-widget-container__widget"></div>
@@ -480,7 +480,7 @@ include "header.php"
                     </div>
                 </div>
                 <div class="col-12 col-lg-7">
-                    <h3 class="sec-sb-title mb-4 text-center text-black">Stock Heat map</h3>
+                    <h3 class="sec-sb-title mb-4 text-center text-gradient">Stock Heat map</h3>
                     <div class="mb-5">
                         <div class="tradingview-widget-container w-100">
                             <div class="tradingview-widget-container__widget"></div>
@@ -513,7 +513,7 @@ include "header.php"
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h3 class="sec-sb-title mb-5 text-center text-black">Watchlist charts and technical analysis graphs</h3>
+                    <h3 class="sec-sb-title mb-5 text-center text-gradient">Watchlist charts and technical analysis graphs</h3>
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="watchlist-chart-box">
@@ -525,7 +525,7 @@ include "header.php"
                                 Gasoline Continues To Decline, But Here is The Chart
                             </h3>
                             <p class="team-member-tag text-white mt-3 mb-4">The gasoline ETF (UGA) continues to drop sharply as worries over the U.S. economy slowdown. In the last...</p>
-                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                 read more
                             </a>
                         </div>
@@ -541,7 +541,7 @@ include "header.php"
                                 Gasoline Continues To Decline, But Here is The Chart
                             </h3>
                             <p class="team-member-tag text-white mt-3 mb-4">The gasoline ETF (UGA) continues to drop sharply as worries over the U.S. economy slowdown. In the last...</p>
-                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                 read more
                             </a>
                         </div>
@@ -555,7 +555,7 @@ include "header.php"
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h3 class="sec-sb-title mb-5 text-center text-black">economic charts and metrics</h3>
+                    <h3 class="sec-sb-title mb-5 text-center text-gradient">economic charts and metrics</h3>
                 </div>
                 <div class="col-12">
                     <div class="position-relative">
@@ -567,7 +567,7 @@ include "header.php"
                                 <div class="economics-chart-text-area text-center">
                                     <h3 class="economics-chart-title text-white">Gasoline Continues To Decline, But Here is The Chart</h3>
                                     <p class="text-white sm-para mt-3 mb-4">The gasoline ETF (UGA) continues to drop sharply as worries over the U.S. economy slowdown. In the last...</p>
-                                    <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                                    <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                         read more
                                     </a>
                                 </div>
@@ -579,7 +579,7 @@ include "header.php"
                                 <div class="economics-chart-text-area text-center">
                                     <h3 class="economics-chart-title text-white">Gasoline Continues To Decline, But Here is The Chart</h3>
                                     <p class="text-white sm-para mt-3 mb-4">The gasoline ETF (UGA) continues to drop sharply as worries over the U.S. economy slowdown. In the last...</p>
-                                    <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                                    <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                         read more
                                     </a>
                                 </div>
@@ -591,7 +591,7 @@ include "header.php"
                                 <div class="economics-chart-text-area text-center">
                                     <h3 class="economics-chart-title text-white">Gasoline Continues To Decline, But Here is The Chart</h3>
                                     <p class="text-white sm-para mt-3 mb-4">The gasoline ETF (UGA) continues to drop sharply as worries over the U.S. economy slowdown. In the last...</p>
-                                    <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                                    <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                         read more
                                     </a>
                                 </div>
@@ -603,7 +603,7 @@ include "header.php"
                                 <div class="economics-chart-text-area text-center">
                                     <h3 class="economics-chart-title text-white">Gasoline Continues To Decline, But Here is The Chart</h3>
                                     <p class="text-white sm-para mt-3 mb-4">The gasoline ETF (UGA) continues to drop sharply as worries over the U.S. economy slowdown. In the last...</p>
-                                    <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                                    <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                         read more
                                     </a>
                                 </div>
@@ -615,7 +615,7 @@ include "header.php"
                                 <div class="economics-chart-text-area text-center">
                                     <h3 class="economics-chart-title text-white">Gasoline Continues To Decline, But Here is The Chart</h3>
                                     <p class="text-white sm-para mt-3 mb-4">The gasoline ETF (UGA) continues to drop sharply as worries over the U.S. economy slowdown. In the last...</p>
-                                    <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                                    <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                         read more
                                     </a>
                                 </div>
@@ -627,7 +627,7 @@ include "header.php"
                                 <div class="economics-chart-text-area text-center">
                                     <h3 class="economics-chart-title text-white">Gasoline Continues To Decline, But Here is The Chart</h3>
                                     <p class="text-white sm-para mt-3 mb-4">The gasoline ETF (UGA) continues to drop sharply as worries over the U.S. economy slowdown. In the last...</p>
-                                    <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                                    <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                         read more
                                     </a>
                                 </div>
@@ -673,7 +673,7 @@ include "footer.php"
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 2,
                 }
@@ -700,19 +700,19 @@ include "footer.php"
         nextArrow: '.economics-chart-slider-btn.next-btn',
         prevArrow: '.economics-chart-slider-btn.pre-btn',
         responsive: [{
-                breakpoint: 1024,
+                breakpoint: 1199,
                 settings: {
                     slidesToShow: 3,
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
                 }
