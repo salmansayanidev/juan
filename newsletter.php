@@ -3,13 +3,13 @@ include "header.php"
 ?>
 
 <main>
-    <section class="inner-page-bnner inner-newsletter-section">
+    <section class="inner-page-bnner before-unset inner-newsletter-section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="inner-bnner-text-area text-webkit-center">
+                    <!-- <div class="inner-bnner-text-area text-webkit-center">
                         <h1 class="sec-title inner-sec-title text-gradient">Newsletter</h1>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@ include "header.php"
                                 <p class="list-para">Stay ahead in the fast-paced world of trading with Flex Market Insights, your essential newsletter for expert analysis, market trends, and strategic tips. Designed for traders who crave precision and timely information, our insights empower you to make informed decisions and capitalize on every market movement. Join our community of savvy traders and elevate your trading game with insights that matter.</p>
                             </li>
                         </ul>
-                        <a class="primary-btn primary-btn-2 text-decoration-none" href="sniper-entries-crypto.php">
+                        <a class="primary-btn primary-btn-2 text-decoration-none" href="newsletter-signup-.php">
                             Learn More
                         </a>
                     </div>

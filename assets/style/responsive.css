@@ -20,9 +20,43 @@
   }
 }
 
+@media (max-width: 1399px) {
+  a.sec-link.mt-4.sec-link-absolute {
+    bottom: 80px;
+}
+}
+
 @media (max-width: 1199px) {
   html {
-    font-size: 7px;
+    font-size: 7.5px;
+  }
+  .newsletter-bnner-img {
+    height: 490px;
+    width: 100%;
+    object-fit: cover;
+}
+  img.img-fluid.flex-trading-img {
+    height: auto;
+}
+  a.sec-link.mt-4.sec-link-absolute {
+    bottom: 60px;
+}
+  .alpha-reports-bnner-img {
+    height: 600px;
+}
+  .our-blog-para-area {
+    right: 10vw;
+    bottom: 60px;
+    max-width: 390px;
+  }
+  .trading-new-main-img {
+    height: 560px;
+  }
+  .team-member-img {
+    min-height: 350px;
+  }
+  .elite-img {
+    height: 500px;
   }
   .alpha-reports-bnner-img {
     height: 600px;
@@ -122,7 +156,7 @@
     justify-content: start;
     align-items: center;
     background-color: #1b1b2c;
-    z-index: 99;
+    z-index: 9999999;
     left: -100%;
     overflow-y: auto;
     padding: 0 30px;
@@ -214,13 +248,20 @@
 }
 
 @media (max-width: 767px) {
+  .text-sm-black {
+    color: black !important;
+  }
+  
   .login-signup-logo {
     max-width: 170px;
 }
-  .our-blog-para-area {
-    right: 2vw;
-    max-width: 300px;
-    bottom: 20px;
+.our-blog-para-area {
+  right: unset;
+  max-width: 90%;
+  bottom: 0;
+  position: unset;
+  margin-top: 20px;
+  text-align: center;
 }
   /* .our-blog-para-area {
     right: unset;
@@ -236,7 +277,7 @@
   color: black !important;
 } */
   .alpha-reports-bnner-img {
-    height: 500px;
+    height: auto;
 }
 .alpha-report-link {
   bottom: 30px;
@@ -261,25 +302,15 @@
     height: 500px;
   }
   .top-nav-list {
-    justify-content: start;
+    justify-content: center;
+    margin-bottom: 5px;
+    gap: 15px !important;
   }
   .header-navigation {
-    position: fixed;
-    top: 0;
-    height: 100vh;
     width: 100vw;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    background-color: #1b1b2c;
-    z-index: 99;
-    left: -100%;
-    overflow-y: auto;
-    padding: 0 30px;
-    transition: 0.5s all ease-in-out;
   }
   html {
-    font-size: 6px;
+    font-size: 7px;
   }
   .social-icons-list.top-res-none {
     display: none;
@@ -337,21 +368,59 @@
 }
 
 @media (max-width: 620px) {
-  .our-blog-para-area {
+  /* .our-blog-para-area {
     right: 2vw;
     max-width: 260px;
     bottom: unset;
     top: 50%;
     transform: translateY(-50%);
-}
-.our-blog-para-area {
+} */
+/* .our-blog-para-area {
   max-width: 230px;
+} */
+.earnings-tabel {
+  min-width: 550px;
 }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+  .comment-pro-img {
+    height: 40px;
+    width: 40px;
+}
+.comment-profile-img-area {
+  max-width: 40px;
+}
+  .auth-form {
+    padding: 5rem 2rem;
+}
+  .inner-page-bnner {
+    padding: 15rem 0;
+}
+.earnings-tabel tr th {
+  font-size: 1.6rem;
+}
+  .inner-sec-title {
+    font-size: 6rem;
+}
   html {
-    font-size: 5.5px;
+    font-size: 7.5px;
+  }
+  /* .our-blog-para-area {
+    max-width: 50vw;
+} */
+  /* .alpha-reports-bnner-img {
+    height: 350px;
+} */
+  .trading-new-main-img {
+    height: 300px;
+  }
+  
+  .sniper-entries-iframe {
+    height: 400px;
+  }
+  .flex-trading-img {
+    height: 400px;
   }
   .our-blog-para-area {
     max-width: 50vw;
@@ -387,9 +456,16 @@
     width: 15px;
   }
   .top-link {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
   .logo {
     max-width: 140px;
   }
+}
+
+@media (max-width: 414px) {
+.sec-link.mt-4.sec-link-absolute {
+    max-width: 210px;
+    width: 100%;
+}
 }

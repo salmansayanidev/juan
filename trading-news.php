@@ -7,7 +7,7 @@ include "header.php"
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12 col-lg-8">
-                    <h3 class="sec-sb-title mb-5  text-black">Trading News</h3>
+                    <h3 class="sec-sb-title mb-5  text-gradient">Trading News</h3>
 
                     <div class="economics-chart-slider-layer m-0">
                         <div class="">
@@ -16,14 +16,14 @@ include "header.php"
                         <div class="economics-chart-text-area p-5">
                             <h3 class="economics-chart-title text-white trading-new-title">Micro Voodoo</h3>
                             <p class="text-white sm-para mt-3 mb-4 trading-new-para">A game-changing tool from John Carter to help you catch bigger and fastr moves more often.</p>
-                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                 read more
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <h3 class="sec-sb-title mb-5 mt-lg-0 mt-5 text-lg-start text-center  text-black">Featured Topics</h3>
+                    <h3 class="sec-sb-title mb-5 mt-lg-0 mt-5 text-lg-start text-center  text-gradient">Featured Topics</h3>
                     <div class="row justify-content-lg-start justify-content-center">
                         <div class="col-12 col-md-6 col-lg-12">
                             <div class="economics-chart-slider-layer mb-5 mb-lg-3  mx-0">
@@ -31,7 +31,7 @@ include "header.php"
                                     <img class="trading-features-img w-100 img-fluid" src="./assets/images/watchlist-chart-img.png" alt="">
                                 </div>
                                 <div class="economics-chart-text-area ">
-                                    <a class="economics-chart-title text-white text-decoration-none trading-new-title" href="#">
+                                    <a class="economics-chart-title text-white text-decoration-none trading-new-title" href="chart-form.php">
                                         Gasoline Continues To Decline, But Here is The Chart
                                     </a>
                                 </div>
@@ -43,7 +43,7 @@ include "header.php"
                                     <img class="trading-features-img w-100 img-fluid" src="./assets/images/watchlist-chart-img.png" alt="">
                                 </div>
                                 <div class="economics-chart-text-area ">
-                                    <a class="economics-chart-title text-white text-decoration-none trading-new-title" href="#">
+                                    <a class="economics-chart-title text-white text-decoration-none trading-new-title" href="chart-form.php">
                                         Gasoline Continues To Decline, But Here is The Chart
                                     </a>
                                 </div>
@@ -55,7 +55,7 @@ include "header.php"
                                     <img class="trading-features-img w-100 img-fluid" src="./assets/images/watchlist-chart-img.png" alt="">
                                 </div>
                                 <div class="economics-chart-text-area ">
-                                    <a class="economics-chart-title text-white text-decoration-none trading-new-title" href="#">
+                                    <a class="economics-chart-title text-white text-decoration-none trading-new-title" href="chart-form.php">
                                         Gasoline Continues To Decline, But Here is The Chart
                                     </a>
                                 </div>
@@ -73,7 +73,7 @@ include "header.php"
                         <div class="economics-chart-text-area ">
                             <h3 class="economics-chart-title trading-new-title text-white">Gasoline Continues To Decline, But Here is The Chart</h3>
                             <p class="text-white trading-new-para sm-para mt-3 mb-4">The gasoline ETF (UGA) continues to drop sharply as worries over the U.S. economy slowdown. In the last...</p>
-                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                 read more
                             </a>
                         </div>
@@ -87,7 +87,7 @@ include "header.php"
                         <div class="economics-chart-text-area ">
                             <h3 class="economics-chart-title trading-new-title text-white">Micro Voodoo</h3>
                             <p class="text-white sm-para trading-new-para mt-3 mb-4">A game-changing tool from John Carter to help you catch bigger and fastr moves more often.</p>
-                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                 read more
                             </a>
                         </div>
@@ -101,7 +101,7 @@ include "header.php"
                         <div class="economics-chart-text-area ">
                             <h3 class="economics-chart-title trading-new-title text-white">Gasoline Continues To Decline, But Here is The Chart</h3>
                             <p class="text-white sm-para trading-new-para mt-3 mb-4">The gasoline ETF (UGA) continues to drop sharply as worries over the U.S. economy slowdown. In the last...</p>
-                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                 read more
                             </a>
                         </div>
@@ -115,7 +115,7 @@ include "header.php"
                         <div class="economics-chart-text-area ">
                             <h3 class="economics-chart-title trading-new-title text-white">Squeeze Pro</h3>
                             <p class="text-white sm-para trading-new-para mt-3 mb-4">A game-changing tool from John Carter to help you catch bigger and fastr moves more often.</p>
-                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                 read more
                             </a>
                         </div>
@@ -129,7 +129,7 @@ include "header.php"
                         <div class="economics-chart-text-area ">
                             <h3 class="economics-chart-title trading-new-title text-white">Ready Aim Fire Pro</h3>
                             <p class="text-white sm-para trading-new-para mt-3 mb-4">A game-changing tool from John Carter to help you catch bigger and fastr moves more often.</p>
-                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                 read more
                             </a>
                         </div>
@@ -143,7 +143,7 @@ include "header.php"
                         <div class="economics-chart-text-area ">
                             <h3 class="economics-chart-title trading-new-title text-white">Gasoline Continues To Decline, But Here is The Chart</h3>
                             <p class="text-white sm-para trading-new-para mt-3 mb-4">The gasoline ETF (UGA) continues to drop sharply as worries over the U.S. economy slowdown. In the last...</p>
-                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                 read more
                             </a>
                         </div>

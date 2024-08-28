@@ -22,8 +22,8 @@ include 'header.php'
 
     <section class="py-5rem">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
                     <p class="sm-para text-black text-center mb-5">Step into the world of disciplined trading excellence with Flex Alpha. Our meticulous approach combines strict discipline with dynamic analysis, delivering precise trading strategies for optimal results. Experience the future of trading with Flex Alpha, where adaptability meets precision.</p>
                 </div>
             </div>

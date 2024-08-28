@@ -9,8 +9,14 @@ include "header.php"
                 <div class="col-12 p-0">
                     <div class="position-relative">
                         <img class="img-fluid alpha-reports-bnner-img" src="./assets/images/our-blog-bg.webp" alt="">
-                        <div class="our-blog-para-area">
-                            <p class="list-para text-white">In the fast-paced world of trading, staying ahead is essential. Our blog, Flex Insights, is your go-to resource for elevating your trading skills and deepening your market understanding. Dive into a wealth of knowledge with regularly published articles featuring market analysis, strategic insights, industry news, and the latest trading tools and technologies. Whether you're a seasoned trader or just starting out, Flex Insights is designed to help you navigate the complexities of global markets and achieve trading success. Join us on this journey of continuous learning and growth.</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class=" d-flex justify-content-center align-items-center d-lg-block  d-md-block ">
+                                    <div class="our-blog-para-area">
+                                        <p class="list-para text-sm-black text-white">In the fast-paced world of trading, staying ahead is essential. Our blog, Flex Insights, is your go-to resource for elevating your trading skills and deepening your market understanding. Dive into a wealth of knowledge with regularly published articles featuring market analysis, strategic insights, industry news, and the latest trading tools and technologies. Whether you're a seasoned trader or just starting out, Flex Insights is designed to help you navigate the complexities of global markets and achieve trading success. Join us on this journey of continuous learning and growth.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -21,12 +27,12 @@ include "header.php"
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12">
-                    <h3 class="sec-sb-title mb-5 text-lg-start text-center  text-black">Our Favorite Articles</h3>
+                    <h3 class="sec-sb-title mb-5 text-lg-start text-center  text-gradient">Our Favorite Articles</h3>
                 </div>
                 <div class="col-12 col-lg-8">
                     <div class="economics-chart-slider-layer mb-5 mb-lg-0 m-0">
                         <div class="">
-                            <img class="trading-new-main-img w-100 img-fluid" src="./assets/images/chart-img-2.png" alt="">
+                            <img class="fav-article-main-img w-100 img-fluid" src="./assets/images/chart-img-2.png" alt="">
                         </div>
                         <div class="economics-chart-text-area p-5">
                             <h3 class="economics-chart-title text-white trading-new-title">Micro Voodoo</h3>
@@ -63,7 +69,7 @@ include "header.php"
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-12">
+                        <!-- <div class="col-12 col-md-6 col-lg-12">
                             <div class="economics-chart-slider-layer mb-5 mb-lg-3  mx-0">
                                 <div class="">
                                     <img class="trading-features-img w-100 img-fluid" src="./assets/images/watchlist-chart-img.png" alt="">
@@ -74,13 +80,13 @@ include "header.php"
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
             <div class="row pt-5">
                 <div class="col-12">
-                    <h3 class="sec-sb-title mb-5 text-lg-start text-center  text-black">Recent Articles</h3>
+                    <h3 class="sec-sb-title mb-5 text-lg-start text-center  text-gradient">Recent Articles</h3>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="economics-chart-slider-layer mb-5 mx-0">
@@ -168,7 +174,7 @@ include "header.php"
                 </div>
                 <div class="col-12">
                     <div class="text-center mt-5">
-                        <a class="primary-btn primary-btn-2 text-decoration-none" href="newsletter-signup-.php">
+                        <a class="primary-btn primary-btn-2 text-decoration-none" href="#">
                             Show More Articles
                         </a>
                     </div>

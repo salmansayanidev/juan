@@ -4,12 +4,12 @@ include 'header.php'
 
 
 <main>
-    <section class="inner-page-bnner entries-commodities-futures-membership-section">
+    <section class="inner-page-bnner opacity-before-70 entries-commodities-futures-membership-section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="inner-bnner-text-area text-webkit-center">
-                        <h1 class="sec-title inner-sec-title text-gradient">Sniper Entries Commodities / Futures</h1>
+                        <h1 class="sec-title inner-sec-title text-gradient">Sniper Entries <br> Commodities / Futures</h1>
                         <a class="sec-link mt-4" href="#">
                             <span class="">Start a 30-Day Trial For $5 </span>
                             <span class="circle"><i class="fa-solid fa-arrow-right"></i></span>
@@ -67,7 +67,7 @@ include 'header.php'
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <h1 class="sb-title purple mb-5  text-center">Proven record:</h1>
+                    <h1 class="sb-title purple mb-5 text-gradient text-center">Proven record:</h1>
                 </div>
                 <div class="col-12 col-lg-10">
                     <div class="">

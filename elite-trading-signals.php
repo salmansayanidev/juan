@@ -128,7 +128,7 @@ include 'header.php'
                                     <p class="list-para"><strong>Client Satisfaction:</strong> Join a thriving community of satisfied clients, supported by glowing testimonials and firsthand success stories.</p>
                                 </li>
                             </ul>
-                            <a class="primary-btn primary-btn-2 text-decoration-none" href="#">
+                            <a class="primary-btn primary-btn-2 text-decoration-none" href="sniper-entries-forex-membership.php">
                                 Learn More
                             </a>
                         </div>
@@ -163,7 +163,7 @@ include 'header.php'
                                     <p class="list-para"><strong>Data-Driven Decisions:</strong> Make informed trading decisions backed by robust data analytics and comprehensive market research, empowering you to trade with confidence and clarity.</p>
                                 </li>
                             </ul>
-                            <a class="primary-btn primary-btn-2 text-decoration-none" href="#">
+                            <a class="primary-btn primary-btn-2 text-decoration-none" href="sniper-entries-commodities-futures-membership.php">
                                 Learn More
                             </a>
                         </div>

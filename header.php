@@ -36,7 +36,7 @@ include "head.php"
                         </li>
                     </ul>
                 </div>
-                <div class="col-5 col-md-4 col-lg-3">
+                <div class="col-12 col-md-4 col-lg-3">
                     <nav class="top-nav">
                         <ul class="top-nav-list">
                             <li class="">
@@ -57,8 +57,8 @@ include "head.php"
                         </ul>
                     </nav>
                 </div>
-                <div class="col-7 col-md-5 col-lg-4">
-                    <ul class="d-flex justify-content-end align-items-center gap-5 top-end-area">
+                <div class="col-12 col-md-5 col-lg-4">
+                    <ul class="d-flex justify-content-center justify-content-md-end justify-content-lg-end align-items-center gap-5 top-end-area">
                         <li class="d-flex align-items-center gap-3">
                             <div class="top-user-img-area">
                                 <img class="user-img img-fluid" src="./assets/images/user-img.png" alt="">

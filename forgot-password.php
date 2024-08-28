@@ -1,11 +1,11 @@
 <?php
-include 'head.php'
+include 'header.php'
 ?>
 
 <main>
-    <section class="login-section">
-        <div class="container h-100">
-            <div class="row justify-content-center h-100 align-items-center">
+    <section class="login-section py-5rem">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-10 col-lg-6">
                     <div class="authincation-content">
                         <div class="row no-gutters">
@@ -33,3 +33,8 @@ include 'head.php'
         </div>
     </section>
 </main>
+
+
+<?php
+    include "footer.php"
+?>

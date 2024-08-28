@@ -9,7 +9,7 @@ include "header.php"
                 <div class="col-12 p-0">
                     <div class="position-relative">
                         <img class="img-fluid  alpha-reports-bnner-img" src="./assets/images/alpha-reports-bg.webp" alt="">
-                        <a class="primary-btn alpha-report-link primary-btn-2 text-decoration-none" href="newsletter-signup-.php">
+                        <a class="primary-btn alpha-report-link primary-btn-2 text-decoration-none" href="#">
                             Learn More
                         </a>
                     </div>
@@ -25,7 +25,7 @@ include "header.php"
                     <p class="list-para mb-5 fst-italic">“Introducing the Flex Market Edge Report, your indispensable weekly briefing designed to equip you with critical insights for the trading week ahead. Each edition features meticulously selected stock picks, accompanied by in-depth technical analysis and illustrative graphs to support your trading decisions. Our expert analysts provide strategic market forecasts, highlight key trends, and offer comprehensive breakdowns of potential market movements. Stay ahead of the curve with actionable intelligence and tailored strategies, ensuring you navigate the trading landscape with confidence and precision.”</p>
                 </div>
                 <div class="col-12">
-                    <h3 class="sec-sb-title mb-5 text-black text-center">This is what you get with each issue</h3>
+                    <h3 class="sec-sb-title mb-5 text-gradient text-center">This is what you get with each issue</h3>
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="mb-5">
@@ -68,7 +68,7 @@ include "header.php"
                 </div>
                 <div class="col-12">
                     <div class="text-center mt-5">
-                        <a class="primary-btn primary-btn-2 text-decoration-none" href="newsletter-signup-.php">
+                        <a class="primary-btn primary-btn-2 text-decoration-none" href="signup.php">
                             Sign Up For The Report Here 
                         </a>
                     </div>

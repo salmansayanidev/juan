@@ -91,7 +91,7 @@ var swiper = new Swiper(".testimonial-slider", {
     el: ".swiper-pagination",
     type: "fraction",
   },
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 2000,
   speed: 500,
   loop: true,

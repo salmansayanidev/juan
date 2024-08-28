@@ -4,13 +4,13 @@ include 'header.php'
 
 
 <main>
-    <section class="inner-page-bnner flex-alpha-live-trading-room-section">
+    <section class="inner-page-bnner before-unset flex-alpha-live-trading-room-section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="inner-bnner-text-area text-webkit-center">
-                        <h1 class="sec-title inner-sec-title text-gradient">Flex Alpha live trading room</h1>
-                        <a class="sec-link mt-4" href="#">
+                    <div class="inner-bnner-text-area before-unset text-webkit-center">
+                        <!-- <h1 class="sec-title inner-sec-title text-gradient">Flex Alpha live trading room</h1> -->
+                        <a class="sec-link mt-4 sec-link-absolute" href="#">
                             <span class="">Start a 30-Day Trial For $5 </span>
                             <span class="circle"><i class="fa-solid fa-arrow-right"></i></span>
                         </a>
@@ -67,7 +67,7 @@ include 'header.php'
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <h1 class="sb-title purple mb-5  text-center">Proven record:</h1>
+                    <h1 class="sb-title purple mb-5 text-gradient text-center">Proven record:</h1>
                 </div>
                 <div class="col-12 col-lg-10">
                     <div class="">

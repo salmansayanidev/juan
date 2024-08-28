@@ -12,7 +12,7 @@ include "header.php"
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h3 class="sec-sb-title mb-5 text-center text-black">Stock Screener</h3>
+                    <h3 class="sec-sb-title mb-5 text-center text-gradient">Stock Screener</h3>
                 </div>
                 <div class="col-12">
                     <div class="tradingview-widget-container w-100">
@@ -40,7 +40,7 @@ include "header.php"
         <div class="container">
             <div class="row align-items-center mb-5">
                 <div class="col-12 col-lg-7">
-                    <h3 class="sec-sb-title text-lg-start text-center mb-lg-0 mb-4 text-black">Popular Indicators:</h3>
+                    <h3 class="sec-sb-title text-lg-start text-center mb-lg-0 mb-4 text-gradient">Popular Indicators:</h3>
                 </div>
                 <div class="col-12 col-lg-5">
                     <div class="d-flex justify-content-center justify-content-lg-end">
@@ -60,7 +60,7 @@ include "header.php"
                         <div class="economics-chart-text-area ">
                             <h3 class="economics-chart-title text-white">Squeeze Pro</h3>
                             <p class="text-white sm-para mt-3 mb-4">A game-changing tool from John Carter to help you catch bigger and fastr moves more often.</p>
-                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                 read more
                             </a>
                         </div>
@@ -74,7 +74,7 @@ include "header.php"
                         <div class="economics-chart-text-area ">
                             <h3 class="economics-chart-title text-white">Ready Aim Fire Pro</h3>
                             <p class="text-white sm-para mt-3 mb-4">A game-changing tool from John Carter to help you catch bigger and fastr moves more often.</p>
-                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                 read more
                             </a>
                         </div>
@@ -88,7 +88,7 @@ include "header.php"
                         <div class="economics-chart-text-area ">
                             <h3 class="economics-chart-title text-white">Micro Voodoo</h3>
                             <p class="text-white sm-para mt-3 mb-4">A game-changing tool from John Carter to help you catch bigger and fastr moves more often.</p>
-                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="#">
+                            <a class="text-decoration-none watchlist-read-more text-decoration-none d-inline-block" href="chart-form.php">
                                 read more
                             </a>
                         </div>

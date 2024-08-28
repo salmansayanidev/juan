@@ -2,12 +2,12 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12">
-                <h1 class="sb-title purple mb-5  text-center">Your Flex Trading Team</h1>
+                <h1 class="sb-title purple mb-5 text-gradient  text-center">Your Flex Trading Team:</h1>
             </div>
             <div class="col-12 p-0">
                 <div class="flex-trading-img-area position-relative">
                     <img class="img-fluid flex-trading-img" src="./assets/images/flex-trading-main-img.png" alt="">
-                    <a class="sec-link border-white flex-trading-a" href="#">
+                    <a class="sec-link border-white flex-trading-a b-ground-gradient border-0" href="elite-trading-signals.php">
                         <span class="">Start a 30-Day Trial For $5</span>
                         <span class="text-white"><i class="fa-solid fa-arrow-right"></i></span>
                     </a>
