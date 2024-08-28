@@ -58,6 +58,23 @@
   .elite-img {
     height: 500px;
   }
+  .alpha-reports-bnner-img {
+    height: 600px;
+}
+  .our-blog-para-area {
+    right: 10vw;
+    bottom: 60px;
+    max-width: 390px;
+  }
+  .trading-new-main-img {
+    height: 560px;
+  }
+  .team-member-img {
+    min-height: 350px;
+  }
+  .elite-img {
+    height: 500px;
+  }
   .top-end-area {
     gap: 10px !important;
   }
@@ -399,6 +416,24 @@
     height: 300px;
   }
   
+  .sniper-entries-iframe {
+    height: 400px;
+  }
+  .flex-trading-img {
+    height: 400px;
+  }
+  .our-blog-para-area {
+    max-width: 50vw;
+}
+  .alpha-reports-bnner-img {
+    height: 350px;
+}
+  .trading-new-main-img {
+    height: 300px;
+  }
+  .earnings-tabel {
+    min-width: 430px;
+  }
   .sniper-entries-iframe {
     height: 400px;
   }
