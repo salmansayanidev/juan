@@ -183,6 +183,7 @@ include "header.php"
                                 </div>
                             </div>
                             <div class="alert-box-text-bttm">
+
                                 <a class="enroll-course-link text-decoration-none" href="lesson.php">
                                     Enroll Course
                                 </a>

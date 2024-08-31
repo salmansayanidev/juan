@@ -123,7 +123,6 @@ span {
     rgba(167, 151, 52, 1) 75%,
     rgba(203, 197, 90, 1) 100%
   );
-}
 /* search popup */
 .search-popup-wrap {
   height: 100vh;
@@ -1417,7 +1416,6 @@ textarea.news-input-field {
 }
 
 /* login dignup screen start */
-
 .login-section {
   /* height: 100vh;
   overflow-y: auto; */
