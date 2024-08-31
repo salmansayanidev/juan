@@ -4,7 +4,7 @@
   }
   .alpha-reports-bnner-img {
     height: 700px;
-}
+  }
   .elite-img {
     height: 560px;
   }
@@ -21,46 +21,64 @@
 }
 
 @media (max-width: 1399px) {
+  .lesson-sidebar-area {
+    max-width: 420px;
+  }
   a.sec-link.mt-4.sec-link-absolute {
     bottom: 80px;
-}
+  }
+  .tutor-pro-img-area {
+    max-width: 220px;
+  }
+  .tutor-pro-img {
+    height: 250px;
+    width: 220px;
+  }
+  .tutor-pro-disc-area {
+    margin-top: 4rem;
+  }
 }
 
 @media (max-width: 1199px) {
   html {
-    font-size: 7.5px;
+    font-size: 8px;
+  }
+  .lesson-video-iframe {
+    height: 450px;
+  }
+  .course-detail-img {
+    height: 420px;
+  }
+  .tutor-cover-img {
+    height: 320px;
+  }
+  .tutor-pro-disc-area {
+    margin-top: 5rem;
+  }
+  .tutor-pro-img-name-area {
+    gap: 30px;
+  }
+  .tutor-pro-img {
+    height: 230px;
+    width: 200px;
+  }
+  .tutor-pro-img-area {
+    max-width: 200px;
   }
   .newsletter-bnner-img {
     height: 490px;
     width: 100%;
     object-fit: cover;
-}
+  }
   img.img-fluid.flex-trading-img {
     height: auto;
-}
+  }
   a.sec-link.mt-4.sec-link-absolute {
     bottom: 60px;
-}
-  .alpha-reports-bnner-img {
-    height: 600px;
-}
-  .our-blog-para-area {
-    right: 10vw;
-    bottom: 60px;
-    max-width: 390px;
-  }
-  .trading-new-main-img {
-    height: 560px;
-  }
-  .team-member-img {
-    min-height: 350px;
-  }
-  .elite-img {
-    height: 500px;
   }
   .alpha-reports-bnner-img {
     height: 600px;
-}
+  }
   .our-blog-para-area {
     right: 10vw;
     bottom: 60px;
@@ -76,7 +94,7 @@
     height: 500px;
   }
   .top-end-area {
-    gap: 10px !important;
+    gap: 8px !important;
   }
   .feature-box::before {
     border: 3px solid rgb(167, 151, 52);
@@ -87,28 +105,74 @@
   .cirlce-user-img {
     height: 35px;
     width: 35px;
-}
-.bookmark-btn {
-  height: 30px;
-  width: 30px;
-}
+  }
+  .bookmark-btn {
+    height: 30px;
+    width: 30px;
+  }
 }
 
 @media (max-width: 991px) {
-  .select2-container .select2-selection--single .select2-selection__rendered, .select2-results__option, .select2-search--dropdown .select2-search__field {
+  .lesson-sidebar-area {
+    max-width: 420px;
+    position: absolute;
+    left: -100%;
+    height: auto;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .lesson-sidebar-area.active {
+    display: unset;
+    left: 0;
+  }
+  .lesson-top-btn {
+    height: 25px;
+    width: 25px;
+  }
+  .lesson-sidebar-cls-btn {
+    display: block;
+  }
+  .pick-plan-btn {
+    display: block;
+  }
+  .membership-level-tabel {
+    min-width: 900px;
+  }
+  .tutor-pro-img {
+    height: 210px;
+    width: 190px;
+  }
+  .tutor-pro-img-area {
+    max-width: 100%;
+    text-align: center;
+  }
+  .select2-container .select2-selection--single .select2-selection__rendered,
+  .select2-results__option,
+  .select2-search--dropdown .select2-search__field {
     font-size: 2rem;
-}
+  }
+  .tutor-cover-img {
+    height: 260px;
+  }
+  .tutor-pro-img-name-area {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -120px;
+  }
+  .tutor-pro-disc-area {
+    margin-top: 0rem;
+  }
   .select2-container {
     width: 200px !important;
-}
+  }
   .alert-course-box {
     margin-bottom: 3rem;
-}
+  }
   .our-blog-para-area {
     right: 3vw;
     max-width: 330px;
     bottom: 20px;
-}
+  }
   .trading-new-main-img {
     height: 450px;
   }
@@ -127,7 +191,7 @@
   }
   .link.dropdown-link:hover {
     background-color: #1b1b2c;
-    color: white;
+    color: white !important;
   }
   .logo {
     max-width: 180px;
@@ -245,24 +309,49 @@
   .newsletter-link {
     bottom: 40px;
   }
+  .text-md-black {
+    color: black !important;
+  }
+  .course-student-qty-area .course-student-qty:nth-child(2)::before {
+    background-color: black;
+  }
+  .rating-no {
+    font-size: 2rem;
+  }
+  .rating-qty {
+    font-size: 1.8rem;
+  }
+  .biography-data-area {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 767px) {
+  .lesson-video-iframe {
+    height: 300px;
+  }
   .text-sm-black {
     color: black !important;
   }
-  
+  .course-detail-img {
+    height: 300px;
+  }
+  .cirlce-user-img.course-dtl {
+    height: 50px;
+    width: 50px;
+  }
+
   .login-signup-logo {
     max-width: 170px;
-}
-.our-blog-para-area {
-  right: unset;
-  max-width: 90%;
-  bottom: 0;
-  position: unset;
-  margin-top: 20px;
-  text-align: center;
-}
+  }
+  .our-blog-para-area {
+    right: unset;
+    max-width: 90%;
+    bottom: 0;
+    position: unset;
+    margin-top: 20px;
+    text-align: center;
+  }
   /* .our-blog-para-area {
     right: unset;
     left: 50%;
@@ -278,10 +367,10 @@
 } */
   .alpha-reports-bnner-img {
     height: auto;
-}
-.alpha-report-link {
-  bottom: 30px;
-}
+  }
+  .alpha-report-link {
+    bottom: 30px;
+  }
   .economics-chart-text-area .sm-para {
     font-size: 1.8rem;
   }
@@ -375,34 +464,54 @@
     top: 50%;
     transform: translateY(-50%);
 } */
-/* .our-blog-para-area {
+  /* .our-blog-para-area {
   max-width: 230px;
 } */
-.earnings-tabel {
-  min-width: 550px;
-}
+  .earnings-tabel {
+    min-width: 550px;
+  }
 }
 
 @media (max-width: 500px) {
+  .lesson-top-btn {
+    height: 22px;
+    width: 22px;
+  }
+  .lesson-video-iframe {
+    height: 260px;
+  }
+  .membership-level-tabel {
+    min-width: 730px;
+  }
+  .tutor-pro-img-name-area {
+    padding: 0 1rem;
+  }
+  .tutor-profile-area {
+    padding: 8rem 1rem 6rem;
+  }
+  .tutor-pro-img {
+    height: 190px;
+    width: 170px;
+  }
   .comment-pro-img {
     height: 40px;
     width: 40px;
-}
-.comment-profile-img-area {
-  max-width: 40px;
-}
+  }
+  .comment-profile-img-area {
+    max-width: 40px;
+  }
   .auth-form {
     padding: 5rem 2rem;
-}
+  }
   .inner-page-bnner {
     padding: 15rem 0;
-}
-.earnings-tabel tr th {
-  font-size: 1.6rem;
-}
+  }
+  .earnings-tabel tr th {
+    font-size: 1.6rem;
+  }
   .inner-sec-title {
     font-size: 6rem;
-}
+  }
   html {
     font-size: 7.5px;
   }
@@ -414,25 +523,6 @@
 } */
   .trading-new-main-img {
     height: 300px;
-  }
-  
-  .sniper-entries-iframe {
-    height: 400px;
-  }
-  .flex-trading-img {
-    height: 400px;
-  }
-  .our-blog-para-area {
-    max-width: 50vw;
-}
-  .alpha-reports-bnner-img {
-    height: 350px;
-}
-  .trading-new-main-img {
-    height: 300px;
-  }
-  .earnings-tabel {
-    min-width: 430px;
   }
   .sniper-entries-iframe {
     height: 400px;
@@ -464,8 +554,20 @@
 }
 
 @media (max-width: 414px) {
-.sec-link.mt-4.sec-link-absolute {
+  .sec-link.mt-4.sec-link-absolute {
     max-width: 210px;
     width: 100%;
+  }
+  .lesson-video-iframe {
+    height: 230px;
+  }
 }
+
+@media (max-width: 390px) {
+  .link {
+    font-size: 1.8rem;
+  }
+  .lesson-video-iframe {
+    height: 200px;
+  }
 }

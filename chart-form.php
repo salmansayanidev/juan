@@ -10,6 +10,7 @@
 
                     <div class="chart-box mb-4">
                         <h2 class="chart-title mb-3">Gasoline Continues To Decline, But Here is The Chart</h2>
+                        <P class="list-para text-black mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vel ducimus sint tempore exercitationem quibusdam</P>
                         <p class="chart-box-para">By <a class="text-decoration-none" href="admin.php">admin</a> <span>/</span> May 28, 2024</p>
                     </div>
 

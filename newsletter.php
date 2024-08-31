@@ -19,7 +19,7 @@ include "header.php"
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="position-relative">
-                        <img class="img-fluid w-100 elite-img" src="./assets/images/newsletter-img.png" alt="">
+                        <img class="img-fluid w-100 " src="./assets/images/newsletter-img.png" alt="">
                         <a class="primary-btn newsletter-link primary-btn-2 text-decoration-none" href="newsletter-signup-.php">
                             Newsletter
                         </a>

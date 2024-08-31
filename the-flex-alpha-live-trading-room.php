@@ -20,7 +20,7 @@ include "header.php"
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="alert-course-box">
                         <div class="alert-box-img-area position-relative">
-                            <a class=" text-decoration-none" href="#">
+                            <a class=" text-decoration-none" href="course-detail.php">
                                 <img class="img-fluid alert-box-img" src="./assets/images/alert-box-img-1.png" alt="">
                             </a>
                             <button type="button" class="bookmark-btn" >
@@ -43,7 +43,7 @@ include "header.php"
                                     </div> -->
                                 </div>
                                 <h2 class="alert-course-title mt-4 mb-4">
-                                    <a class=" text-decoration-none d-block" href="#">Flex Alpha Live Trading Room Course 3</a>
+                                    <a class=" text-decoration-none d-block" href="course-detail.php">Flex Alpha Live Trading Room Course 3</a>
                                 </h2>
                                 <div class="d-flex justify-content-start align-items-center gap-5">
                                     <div class="d-flex justify-content-start align-items-center gap-3">
@@ -57,17 +57,17 @@ include "header.php"
                                 </div>
                                 <div class="mt-4 d-flex justify-content-start align-items-center gap-4">
                                     <div class="">
-                                        <a class="cirlce-user-img text-decoration-none" href="#">
+                                        <a class="cirlce-user-img text-decoration-none" href="tutor-profile-page.php">
                                             a
                                         </a>
                                     </div>
                                     <div class="">
-                                        <p class="sb-para">By <a class=" text-decoration-none fw-semibold text-black" href="#">admin</a> In <a class=" text-decoration-none fw-semibold text-black" href="#">The Flex Alpha Live Trading Room</a></p>
+                                        <p class="sb-para">By <a class=" text-decoration-none fw-semibold text-black" href="tutor-profile-page.php">admin</a> In <a class=" text-decoration-none fw-semibold text-black" href="#">The Flex Alpha Live Trading Room</a></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="alert-box-text-bttm">
-                                <a class="enroll-course-link text-decoration-none" href="#">
+                                <a class="enroll-course-link text-decoration-none" href="lesson.php">
                                     Enroll Course
                                 </a>
                             </div>
@@ -78,7 +78,7 @@ include "header.php"
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="alert-course-box">
                         <div class="alert-box-img-area position-relative">
-                            <a class=" text-decoration-none" href="#">
+                            <a class=" text-decoration-none" href="course-detail.php">
                                 <img class="img-fluid alert-box-img" src="./assets/images/alert-box-img-4.png" alt="">
                             </a>
                             <button type="button" class="bookmark-btn" >
@@ -101,7 +101,7 @@ include "header.php"
                                     </div> -->
                                 </div>
                                 <h2 class="alert-course-title mt-4 mb-4">
-                                    <a class=" text-decoration-none d-block" href="#">Flex Alpha Live Trading Room Course 2</a>
+                                    <a class=" text-decoration-none d-block" href="course-detail.php">Flex Alpha Live Trading Room Course 2</a>
                                 </h2>
                                 <div class="d-flex justify-content-start align-items-center gap-5">
                                     <div class="d-flex justify-content-start align-items-center gap-3">
@@ -115,17 +115,18 @@ include "header.php"
                                 </div>
                                 <div class="mt-4 d-flex justify-content-start align-items-center gap-4">
                                     <div class="">
-                                        <a class="cirlce-user-img text-decoration-none" href="#">
+
+                                        <a class="cirlce-user-img text-decoration-none" href="tutor-profile-page.php">
                                             a
                                         </a>
                                     </div>
                                     <div class="">
-                                        <p class="sb-para">By <a class=" text-decoration-none fw-semibold text-black" href="#">admin</a> In <a class=" text-decoration-none fw-semibold text-black" href="#">The Flex Alpha Live Trading Room</a></p>
+                                        <p class="sb-para">By <a class=" text-decoration-none fw-semibold text-black" href="tutor-profile-page.php">admin</a> In <a class=" text-decoration-none fw-semibold text-black" href="#">The Flex Alpha Live Trading Room</a></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="alert-box-text-bttm">
-                                <a class="enroll-course-link text-decoration-none" href="#">
+                                <a class="enroll-course-link text-decoration-none" href="lesson.php">
                                     Enroll Course
                                 </a>
                             </div>
@@ -136,7 +137,7 @@ include "header.php"
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="alert-course-box">
                         <div class="alert-box-img-area position-relative">
-                            <a class=" text-decoration-none" href="#">
+                            <a class=" text-decoration-none" href="course-detail.php">
                                 <img class="img-fluid alert-box-img" src="./assets/images/alert-box-img-5.png" alt="">
                             </a>
                             <button type="button" class="bookmark-btn" >
@@ -159,7 +160,7 @@ include "header.php"
                                     </div> -->
                                 </div>
                                 <h2 class="alert-course-title mt-4 mb-4">
-                                    <a class=" text-decoration-none d-block" href="#">Flex Alpha Live Trading Room Course 1</a>
+                                    <a class=" text-decoration-none d-block" href="course-detail.php">Flex Alpha Live Trading Room Course 1</a>
                                 </h2>
                                 <div class="d-flex justify-content-start align-items-center gap-5">
                                     <div class="d-flex justify-content-start align-items-center gap-3">
@@ -173,17 +174,17 @@ include "header.php"
                                 </div>
                                 <div class="mt-4 d-flex justify-content-start align-items-center gap-4">
                                     <div class="">
-                                        <a class="cirlce-user-img text-decoration-none" href="#">
+                                        <a class="cirlce-user-img text-decoration-none" href="tutor-profile-page.php">
                                             a
                                         </a>
                                     </div>
                                     <div class="">
-                                        <p class="sb-para">By <a class=" text-decoration-none fw-semibold text-black" href="#">admin</a> In <a class=" text-decoration-none fw-semibold text-black" href="#">The Flex Alpha Live Trading Room</a></p>
+                                        <p class="sb-para">By <a class=" text-decoration-none fw-semibold text-black" href="tutor-profile-page.php">admin</a> In <a class=" text-decoration-none fw-semibold text-black" href="#">The Flex Alpha Live Trading Room</a></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="alert-box-text-bttm">
-                                <a class="enroll-course-link text-decoration-none" href="#">
+                                <a class="enroll-course-link text-decoration-none" href="lesson.php">
                                     Enroll Course
                                 </a>
                             </div>
